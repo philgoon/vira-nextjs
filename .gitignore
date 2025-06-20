@@ -30,8 +30,17 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# local env files
+.env*.local
+
+# Google service account keys and credentials
+*.json.key
+*.p12
+sys-*.json
+
+# Temporary files
+*.b64
+temp*
 
 # vercel
 .vercel
