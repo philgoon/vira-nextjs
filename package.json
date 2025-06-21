@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sentry/nextjs": "^9.30.0",
     "google-auth-library": "^10.1.0",
     "googleapis": "^150.0.1",
     "next": "15.3.4",
